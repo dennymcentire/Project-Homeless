@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		69B7ACDA1E5B91D5000AC337 /* Animation.Atlas in Resources */ = {isa = PBXBuildFile; fileRef = 69B7ACD91E5B91D5000AC337 /* Animation.Atlas */; };
+		69B7ACEC1E5B94CE000AC337 /* Fence.png in Resources */ = {isa = PBXBuildFile; fileRef = 69B7ACDC1E5B94CE000AC337 /* Fence.png */; };
+		69B7ACED1E5B94CE000AC337 /* Fence@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69B7ACDD1E5B94CE000AC337 /* Fence@2x.png */; };
+		69B7ACEE1E5B94CE000AC337 /* Head-menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 69B7ACDE1E5B94CE000AC337 /* Head-menu.png */; };
+		69B7ACEF1E5B94CE000AC337 /* Head-menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69B7ACDF1E5B94CE000AC337 /* Head-menu@2x.png */; };
+		69B7ACF01E5B94CE000AC337 /* House-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 69B7ACE01E5B94CE000AC337 /* House-1.png */; };
+		69B7ACF11E5B94CE000AC337 /* House-1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69B7ACE11E5B94CE000AC337 /* House-1@2x.png */; };
+		69B7ACF21E5B94CE000AC337 /* House-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 69B7ACE21E5B94CE000AC337 /* House-2.png */; };
+		69B7ACF31E5B94CE000AC337 /* House-2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69B7ACE31E5B94CE000AC337 /* House-2@2x.png */; };
+		69B7ACF41E5B94CE000AC337 /* House-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 69B7ACE41E5B94CE000AC337 /* House-3.png */; };
+		69B7ACF51E5B94CE000AC337 /* House-3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69B7ACE51E5B94CE000AC337 /* House-3@2x.png */; };
+		69B7ACF61E5B94CE000AC337 /* House-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 69B7ACE61E5B94CE000AC337 /* House-4.png */; };
+		69B7ACF71E5B94CE000AC337 /* House-4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69B7ACE71E5B94CE000AC337 /* House-4@2x.png */; };
+		69B7ACF81E5B94CE000AC337 /* House-5.png in Resources */ = {isa = PBXBuildFile; fileRef = 69B7ACE81E5B94CE000AC337 /* House-5.png */; };
+		69B7ACF91E5B94CE000AC337 /* House-5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69B7ACE91E5B94CE000AC337 /* House-5@2x.png */; };
+		69B7ACFA1E5B94CE000AC337 /* Road.png in Resources */ = {isa = PBXBuildFile; fileRef = 69B7ACEA1E5B94CE000AC337 /* Road.png */; };
+		69B7ACFB1E5B94CE000AC337 /* Road@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69B7ACEB1E5B94CE000AC337 /* Road@2x.png */; };
 		B11C2DBB1E56784000BEC4FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11C2DBA1E56784000BEC4FF /* AppDelegate.swift */; };
 		B11C2DBD1E56784000BEC4FF /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = B11C2DBC1E56784000BEC4FF /* GameScene.sks */; };
 		B11C2DBF1E56784000BEC4FF /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = B11C2DBE1E56784000BEC4FF /* Actions.sks */; };
@@ -37,6 +54,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		69B7ACD91E5B91D5000AC337 /* Animation.Atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Animation.Atlas; sourceTree = "<group>"; };
+		69B7ACDC1E5B94CE000AC337 /* Fence.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fence.png; sourceTree = "<group>"; };
+		69B7ACDD1E5B94CE000AC337 /* Fence@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Fence@2x.png"; sourceTree = "<group>"; };
+		69B7ACDE1E5B94CE000AC337 /* Head-menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Head-menu.png"; sourceTree = "<group>"; };
+		69B7ACDF1E5B94CE000AC337 /* Head-menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Head-menu@2x.png"; sourceTree = "<group>"; };
+		69B7ACE01E5B94CE000AC337 /* House-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "House-1.png"; sourceTree = "<group>"; };
+		69B7ACE11E5B94CE000AC337 /* House-1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "House-1@2x.png"; sourceTree = "<group>"; };
+		69B7ACE21E5B94CE000AC337 /* House-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "House-2.png"; sourceTree = "<group>"; };
+		69B7ACE31E5B94CE000AC337 /* House-2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "House-2@2x.png"; sourceTree = "<group>"; };
+		69B7ACE41E5B94CE000AC337 /* House-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "House-3.png"; sourceTree = "<group>"; };
+		69B7ACE51E5B94CE000AC337 /* House-3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "House-3@2x.png"; sourceTree = "<group>"; };
+		69B7ACE61E5B94CE000AC337 /* House-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "House-4.png"; sourceTree = "<group>"; };
+		69B7ACE71E5B94CE000AC337 /* House-4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "House-4@2x.png"; sourceTree = "<group>"; };
+		69B7ACE81E5B94CE000AC337 /* House-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "House-5.png"; sourceTree = "<group>"; };
+		69B7ACE91E5B94CE000AC337 /* House-5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "House-5@2x.png"; sourceTree = "<group>"; };
+		69B7ACEA1E5B94CE000AC337 /* Road.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Road.png; sourceTree = "<group>"; };
+		69B7ACEB1E5B94CE000AC337 /* Road@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Road@2x.png"; sourceTree = "<group>"; };
 		B11C2DB71E56784000BEC4FF /* Project: Homeless.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project: Homeless.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B11C2DBA1E56784000BEC4FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B11C2DBC1E56784000BEC4FF /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -80,6 +114,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		69B7ACDB1E5B94CE000AC337 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				69B7ACDC1E5B94CE000AC337 /* Fence.png */,
+				69B7ACDD1E5B94CE000AC337 /* Fence@2x.png */,
+				69B7ACDE1E5B94CE000AC337 /* Head-menu.png */,
+				69B7ACDF1E5B94CE000AC337 /* Head-menu@2x.png */,
+				69B7ACE01E5B94CE000AC337 /* House-1.png */,
+				69B7ACE11E5B94CE000AC337 /* House-1@2x.png */,
+				69B7ACE21E5B94CE000AC337 /* House-2.png */,
+				69B7ACE31E5B94CE000AC337 /* House-2@2x.png */,
+				69B7ACE41E5B94CE000AC337 /* House-3.png */,
+				69B7ACE51E5B94CE000AC337 /* House-3@2x.png */,
+				69B7ACE61E5B94CE000AC337 /* House-4.png */,
+				69B7ACE71E5B94CE000AC337 /* House-4@2x.png */,
+				69B7ACE81E5B94CE000AC337 /* House-5.png */,
+				69B7ACE91E5B94CE000AC337 /* House-5@2x.png */,
+				69B7ACEA1E5B94CE000AC337 /* Road.png */,
+				69B7ACEB1E5B94CE000AC337 /* Road@2x.png */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
 		B11C2DAE1E56783F00BEC4FF = {
 			isa = PBXGroup;
 			children = (
@@ -103,12 +160,14 @@
 		B11C2DB91E56784000BEC4FF /* Project: Homeless */ = {
 			isa = PBXGroup;
 			children = (
+				69B7ACD91E5B91D5000AC337 /* Animation.Atlas */,
 				B11C2DBA1E56784000BEC4FF /* AppDelegate.swift */,
 				B11C2DBC1E56784000BEC4FF /* GameScene.sks */,
 				B11C2DBE1E56784000BEC4FF /* Actions.sks */,
 				B11C2DC01E56784000BEC4FF /* GameScene.swift */,
 				B11C2DC21E56784000BEC4FF /* GameViewController.swift */,
 				B11C2DC41E56784000BEC4FF /* Main.storyboard */,
+				69B7ACDB1E5B94CE000AC337 /* UI */,
 				B11C2DC71E56784000BEC4FF /* Assets.xcassets */,
 				B11C2DC91E56784000BEC4FF /* LaunchScreen.storyboard */,
 				B11C2DCC1E56784000BEC4FF /* Info.plist */,
@@ -242,10 +301,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				B11C2DC61E56784000BEC4FF /* Main.storyboard in Resources */,
+				69B7ACF91E5B94CE000AC337 /* House-5@2x.png in Resources */,
 				B11C2DBD1E56784000BEC4FF /* GameScene.sks in Resources */,
+				69B7ACED1E5B94CE000AC337 /* Fence@2x.png in Resources */,
+				69B7ACEE1E5B94CE000AC337 /* Head-menu.png in Resources */,
 				B11C2DC81E56784000BEC4FF /* Assets.xcassets in Resources */,
+				69B7ACF11E5B94CE000AC337 /* House-1@2x.png in Resources */,
+				69B7ACF01E5B94CE000AC337 /* House-1.png in Resources */,
+				69B7ACF41E5B94CE000AC337 /* House-3.png in Resources */,
+				69B7ACFA1E5B94CE000AC337 /* Road.png in Resources */,
 				B11C2DCB1E56784000BEC4FF /* LaunchScreen.storyboard in Resources */,
+				69B7ACF31E5B94CE000AC337 /* House-2@2x.png in Resources */,
+				69B7ACF21E5B94CE000AC337 /* House-2.png in Resources */,
+				69B7ACDA1E5B91D5000AC337 /* Animation.Atlas in Resources */,
+				69B7ACF61E5B94CE000AC337 /* House-4.png in Resources */,
+				69B7ACEF1E5B94CE000AC337 /* Head-menu@2x.png in Resources */,
+				69B7ACF71E5B94CE000AC337 /* House-4@2x.png in Resources */,
+				69B7ACEC1E5B94CE000AC337 /* Fence.png in Resources */,
+				69B7ACF81E5B94CE000AC337 /* House-5.png in Resources */,
 				B11C2DBF1E56784000BEC4FF /* Actions.sks in Resources */,
+				69B7ACFB1E5B94CE000AC337 /* Road@2x.png in Resources */,
+				69B7ACF51E5B94CE000AC337 /* House-3@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,6 +505,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Student.Project--Homeless";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -441,6 +518,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Student.Project--Homeless";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
@@ -517,6 +595,7 @@
 				B11C2DE71E56784000BEC4FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B11C2DE81E56784000BEC4FF /* Build configuration list for PBXNativeTarget "Project: HomelessTests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +604,7 @@
 				B11C2DEA1E56784000BEC4FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B11C2DEB1E56784000BEC4FF /* Build configuration list for PBXNativeTarget "Project: HomelessUITests" */ = {
 			isa = XCConfigurationList;
@@ -533,6 +613,7 @@
 				B11C2DED1E56784000BEC4FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
