@@ -15,7 +15,7 @@ class GameScene: SKScene {
     private var spinnyNode : SKShapeNode?
     
     override func didMove(to view: SKView) {
-        
+        print("RAISINSSSSSSSSSSSS")
         // Get label node from scene and store it for use later
         self.label = self.childNode(withName: "//helloLabel") as? SKLabelNode
         if let label = self.label {
@@ -23,18 +23,42 @@ class GameScene: SKScene {
             label.run(SKAction.fadeIn(withDuration: 2.0))
         }
         
-        // Create shape node to use during mouse interaction
-        let w = (self.size.width + self.size.height) * 0.05
-        self.spinnyNode = SKShapeNode.init(rectOf: CGSize.init(width: w, height: w), cornerRadius: w * 0.3)
         
-        if let spinnyNode = self.spinnyNode {
-            spinnyNode.lineWidth = 2.5
+        
+        for child in self.children {
             
-            spinnyNode.run(SKAction.repeatForever(SKAction.rotate(byAngle: CGFloat(M_PI), duration: 1)))
-            spinnyNode.run(SKAction.sequence([SKAction.wait(forDuration: 0.5),
-                                              SKAction.fadeOut(withDuration: 0.5),
-                                              SKAction.removeFromParent()]))
+        
+            if child.name == "GenChar" {
+                
+                if let child = child as? SKSpriteNode {
+                    let spriteAtlas = SKTextureAtlas(named: "Animation")
+                    var spriteFrames = [SKTexture]()
+                    
+                    for i in 1...9 {
+                        let spriteTextureName = "Generic-Character-\(i)"
+                        spriteFrames.append(spriteAtlas.textureNamed(spriteTextureName))
+                    }
+                    
+                    let firstFrame = spriteFrames[0]
+                    child.texture = firstFrame
+                    child.run(SKAction.repeatForever(
+                        SKAction.animate(with: spriteFrames,
+                                         timePerFrame: 0.1,
+                                         resize: false,
+                                         restore: true)),
+                                   withKey:"Generic Characer Walks")
+                    let move2 = SKAction.move(to: CGPoint(x: 2, y: child.position.y), duration:6)
+                    move2.timingMode = SKActionTimingMode.easeOut
+                    child.run(SKAction.sequence([move2,
+                        SKAction.run({
+                            child.removeAllActions()
+                        })]
+                    ))
+                }
+            }
         }
+        
+        
     }
     
     
