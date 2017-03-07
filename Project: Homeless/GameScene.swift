@@ -31,22 +31,8 @@ class GameScene: SKScene {
             if child.name == "GenChar" {
                 
                 if let child = child as? SKSpriteNode {
-                    let spriteAtlas = SKTextureAtlas(named: "Animation")
-                    var spriteFrames = [SKTexture]()
+                    startGenWalkAnimation(forSprite: child)
                     
-                    for i in 1...9 {
-                        let spriteTextureName = "Generic-Character-\(i)"
-                        spriteFrames.append(spriteAtlas.textureNamed(spriteTextureName))
-                    }
-                    
-                    let firstFrame = spriteFrames[0]
-                    child.texture = firstFrame
-                    child.run(SKAction.repeatForever(
-                        SKAction.animate(with: spriteFrames,
-                                         timePerFrame: 0.1,
-                                         resize: false,
-                                         restore: true)),
-                                   withKey:"Generic Characer Walks")
                     let move2 = SKAction.move(to: CGPoint(x: 2, y: child.position.y), duration:6)
                     move2.timingMode = SKActionTimingMode.easeOut
                     child.run(SKAction.sequence([move2,
@@ -55,10 +41,42 @@ class GameScene: SKScene {
                         })]
                     ))
                 }
+            } else if child.name == "HomeLessChar" {
+                if let child = child as? SKSpriteNode {
+                    startGenWalkAnimation(forSprite: child)
+                    
+                    let move2 = SKAction.move(to: CGPoint(x: -60, y: child.position.y), duration:6)
+                    move2.timingMode = SKActionTimingMode.easeOut
+                    child.run(SKAction.sequence([move2,
+                         SKAction.run({
+                            child.removeAllActions()
+                         })]
+                    ))
+                }
             }
         }
         
         
+    }
+    
+    
+    func startGenWalkAnimation(forSprite child : SKSpriteNode) {
+        let spriteAtlas = SKTextureAtlas(named: "Animation")
+        var spriteFrames = [SKTexture]()
+        
+        for i in 1...9 {
+            let spriteTextureName = "Generic-Character-\(i)"
+            spriteFrames.append(spriteAtlas.textureNamed(spriteTextureName))
+        }
+        
+        let firstFrame = spriteFrames[0]
+        child.texture = firstFrame
+        child.run(SKAction.repeatForever(
+            SKAction.animate(with: spriteFrames,
+                             timePerFrame: 0.1,
+                             resize: false,
+                             restore: true)),
+                  withKey:"Generic Characer Walks")
     }
     
     
